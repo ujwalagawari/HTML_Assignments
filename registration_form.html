@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>University Portal</title>
+    
+</head>
+<body>
+    
+    <table  align="center" cellspacing="10">
+            
+        <form>
+            <tr><td align="center"><h1>Registration Form</h1></td></tr>
+            <tr>
+                <td >First Name</td>
+                <td><input type="text" name="firstName" maxlength="25" pattern="[A-Za-z]*"  placeholder="Enter First Name" required></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="lastName" maxlength="25"  pattern="[A-Za-z]*" placeholder="Enter Last Name" required></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea rows="3" cols="21" name="address" maxlength="50" pattern="{}" placeholder="Enter Address" required></textarea></td>
+            </tr>
+            <tr>
+                <td>Email id</td>
+                <td><input type="text" name="emailId" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter Email Id" required></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><select name="city" required>
+                    <option value="0" selected="selected">Please Select City</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Sangamner">Sangamner</option>
+                    <option value="Beed">Beed</option>
+                    <option value="Thane">Thane</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><select name="state" required>
+                        <option value="0" selected="selected">Please Select State</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>University Branch Name</td>
+                <td><select name="branchName" required>
+                        <option value="0" selected="selected">Please Select University Branch</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Kolhapur">Kolhapur</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Kolkatta">Kolkatta</option>
+                        <option value="Chennai">Chennai</option>
+                    </select></td>
+            </tr>
+            <tr>
+                    <td>Phone number</td>
+                    <td><input type="text" name="phoneNo" pattern="[0-9]{10}" placeholder="Enter Mobile Number" required></td>
+                </tr>
+            <tr>
+                <td>Enrolled Course</td>
+                <td><select name="enrolledCourse" required>
+                        <option value="0" selected="selected">Please Select Enrolled Course</option>
+                        <option value="Java">Java</option>
+                        <option value="Python">Python</option>
+                        <option value="Oracle">Oracle</option>
+                        <option value="C">C</option>
+                        <option value="C++">C++</option>
+                        <option value=".net">.net</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Date of Test</td>
+                <td><input type="date" name="dateOfTest" placeholder="dd-mm-yyyy"  required></td>
+            </tr>
+            <tr>
+                <td>Written Test Marks</td>
+                <td><input type="number" min="50" max="100" name="testMarks" placeholder="Enter Test Marks" required></td>
+            </tr>
+            <tr>
+                <td align="center"><input type="submit" value="Submit"></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
