@@ -1,0 +1,38 @@
+.header img {
+    float: left;
+    /* width: 30%; */
+    height: 100px;
+  }
+  
+  .header h1 {
+    position: relative;
+    top: 30px;
+    margin-left:  600px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: #555; */
+  }
+
+  .header{
+    background-color: rgb(241, 207, 144);
+    height: 100px;
+  }
+
+  /* nav{
+    background-color: sandybrown;
+    height: 20%;
+    margin: auto;
+  } */
+
+  nav#menu ul {
+    padding: 0;
+  }
+
+  nav#menu ul li {
+    display: inline;
+    margin: 12px;
+    font-size:20px;
+  }
+
+  .menu_List  {
+    float:right;
+  }

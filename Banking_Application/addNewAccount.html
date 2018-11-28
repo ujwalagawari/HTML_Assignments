@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Banking Application</title>
+        <link rel="stylesheet" type="text/css" href="resources/css/formStyle.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/headerStyle.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/footerStyle.css">
+</head>
+<body>
+
+        <div class="header">
+                <img src="resources/images/icici_bank_logo.png" alt="logo" />
+                <h1>ICICI  BANK</h1>
+            </div>
+            <nav id="menu">
+                <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="addNewAccount.html">Add New Account</a></li>
+                        <li><a href="searchAccount.html">Search Account</a></li>
+                        <li><a href="viewAccount.html">View Account</a></li>
+                        <li><a href="viewAllCustomers.html">View All Customers</a></li>
+                        <li><a href="updateCustomerForm.html">Update Customer Form</a></li>
+                        <li><a href="withdrawForm.html">Withdraw Form</a></li>
+                        <li><a href="depositForm.html">Deposit Form</a></li>
+                        <li><a href="fundTransfer.html">Fund Transfer</a></li>
+                </ul>
+            </nav>
+
+            <h1 align="center">New Account Form</h1>
+                 <hr>
+         <div align="center">
+            <form class="form-control">
+                <div class="form-control">
+                  <label for="name">Customer Name: </label>
+                  <input type="text" name="name" id="name" placeholder="Enter Name" required>
+                </div>
+                <div class="form-control">
+                  <label for="email">Customer Email Id :    </label>
+                  <input type="text" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter Email Id" required>
+                </div>
+                <div class="form-control">
+                    <label for="name">Customer DOB: </label>
+                    <input type="date" name="dob" id="dob" required>
+                </div>
+                <div class="form-control">
+                    <label for="email">Customer Phone Number  :    </label>
+                    <input type="text" name="phone" id="phone" pattern="[0-9]{10}" placeholder="Enter phone Number" required>
+                </div>
+                <div class="form-control">
+                    <label for="email">Account Type  :    </label>
+                    <select name="accountType" id="accountType">
+                        <option value="Savings ">Savings </option>
+                        <option value="Current">Current</option>
+                    </select>
+                </div>
+                <div class="form-control" align="center">
+                  <input type="submit" value="Save">
+                </div>
+              </form>
+            </div> 
+            <footer>Copyscape © 2018 ICICI Bank. All rights reserved. Terms of Use.</footer>
+    
+</body>
+</html>
