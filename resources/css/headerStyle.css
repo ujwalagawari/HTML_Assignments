@@ -1,0 +1,13 @@
+div#menu ul {
+    padding: 0;
+}
+
+div#menu ul li {
+    display: inline;
+    margin: 15px;
+}
+
+.menu_List  {
+    float:right;
+}
+
