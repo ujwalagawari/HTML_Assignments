@@ -6,14 +6,10 @@ div.form-control {
     display: table-row;
 }
 
-label, input,select {
+label, input,select, #reset{
     display: table-cell;
     margin-bottom: 10px;
     text-align: left;
-}
-
-#reset{
-    display: table-cell;
 }
 
 label {

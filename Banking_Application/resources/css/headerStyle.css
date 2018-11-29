@@ -12,9 +12,13 @@
     /* background: #555; */
   }
 
-  .header a {
-    position: relative;
-    top: 0px;
+  a{
+    text-decoration: none;
+  }
+
+  .header .details {
+    position: absolute;
+    top: 15px;
     margin-left:  1100px;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -26,8 +30,10 @@
 
    nav{
     background-color: rgb(252, 197, 149);
-    height: 20%;
+    /* height: 25%; */
     text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
   } 
 
   nav#menu ul {
