@@ -12,6 +12,10 @@ label, input,select {
     text-align: left;
 }
 
+#reset{
+    display: table-cell;
+}
+
 label {
     padding-right: 50px;
 }
